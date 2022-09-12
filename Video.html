@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Video .css">
+    <title>Gaming Website Page - Easy Tutorials</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="logo" width="150px" src="https://cdn-icons-png.flaticon.com/512/588/588258.png" alt="game">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="#">Game Controllers</a></li>
+                    <li><a href="#">VR accesories</a></li>
+                    <li><a href="#">Media remotes</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </nav>
+            <img  class="menu-icon" width="100px" src="https://cdn-icons-png.flaticon.com/512/588/588340.png" onclick="togglemenu()" alt="game">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>PS5 V2<br>Dualshock</h2>
+                <h3>Wireless Controller for Playstation 5</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now <img src="https://cdn-icons-png.flaticon.com/512/3042/3042406.png" alt="strelka"> 
+                </button>
+            </div>
+            <div class="col-2">
+                <img class="controller" src="https://media.gamestop.com/i/gamestop/11106262/Sony-DualSense-Wireless-Controller" alt="Controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <!-- <img src="https://e7.pngegg.com/pngimages/272/936/png-clipart-computer-icons-desktop-plus-and-minus-signs-restart-miscellaneous-sign.png" alt=""> -->
+                    <p><Small>Add to cart</Small></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="social-links">
+            <img src="https://image.similarpng.com/very-thumbnail/2021/01/Black-telegram-icon-on-transparent-background-PNG.png" alt="telegram">
+            <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="facebook">
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/48/79/instagram-logo-icon-social-media-symbol-vector-26504879.jpg" alt="instagram">
+        </div>
+    </div>
+
+
+    <script>
+
+        var menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menulist.style.maxHeight == "0px")
+                {
+                    menulist.style.maxHeight = "130px";
+                }
+            else 
+                {
+                    menulist.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html>
